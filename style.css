@@ -60,6 +60,8 @@ ul li a:hover{
 .second_block{
     height: 110vh;
     width: 100%;
+    overflow: auto;
+    resize: verical;
     background-image: url("Background_image2.jpg");
     background-size: cover;
     background-position: center;
