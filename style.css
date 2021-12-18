@@ -3,15 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-.first_block{
-    background-color: rgb(21, 3, 63);
+.nav{
+    overflow: hidden;
+    width: 100%;
+    background-color: #10A3A2;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-right: 8%;
     padding-left: 8%;
+    position: fixed;
+    margin: auto;
 }
-#bg1{
+#logo{
     height: 40px;
     width: 40px;
     border-radius: 5px;
@@ -22,39 +26,42 @@ ul li{
 }
 ul li a{
     color: white;
+    font-size: 20px;
     text-decoration: none;
+    display: block;
     transition: transform .6s;
 }
 ul li a:hover{
-    transform: scale(2);
-    color: rgb(73, 223, 54);
+    transform: scale(1.2);
+    color: #3A416F;
+    /* background-color: #3edac5; */
 }
 .btn{
-    color: white;
-    background-color: Red;
+    margin: 5px;
+    color: #10A3A2;
+    background-color: white;
     text-decoration: none;
     font-size: 30px;
-    border: double 5px white;
+    border: solid 2px white;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-weight: bold;
-    font-size: 30px;
     transition: transform .6s;
 }
 .btn:hover{
-    transform: scale(0.9);
-    color: black;
+    transform: scale(1.1);
+    color: #3A416F;
 }
-.first_block_sub{
+/* .first_block_sub{
     color: red;
-    font-size: 30px;
-}
+    font-size: 25px;
+    background-color: #3edac5;
+} */
 .second_block{
-    background-image: url("Background_image.jpg");
     height: 110vh;
     width: 100%;
+    background-image: url("Background_image2.jpg");
     background-size: cover;
-    position: relative;
     background-position: center;
     color: rgb(73, 223, 54);
 }
@@ -64,13 +71,13 @@ ul li a:hover{
     left: 8%;
     margin-top: 200px;
 }
-h2{
+h1{
     font-size: 40px;
     letter-spacing: 2px;
     color: wheat;
     -webkit-text-stroke: 0.8px rgb(0, 0, 0);
 }
-h3{
+h2{
     margin: 20px 0 20px;
     font-size: 100px;
     letter-spacing: 3px;
