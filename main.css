@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    /* overflow: hidden; */
+    width: 100%;
+    background-color: #10A3A2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 8%;
+    padding-left: 8%;
+    position: sticky;
+    top: 0;
+    margin: auto;
+}
+#logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform .6s;
+    display: block;
+}
+ul li a:hover{
+    transform: scale(1.2);
+    color: #3A416F;
+    background-color: #3edac5;
+}
+.btn{
+    margin: 5px;
+    color: #10A3A2;
+    background-color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: transform .6s;
+}
+.btn:hover{
+    transform: scale(1.1);
+    color: #3A416F;
+}
+.first_block{
+    height: 110vh;
+    width: 100%;
+    overflow: auto;
+    background-image: url("Images and videoes/Background_image2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(73, 223, 54);
+}
+.first_block1{
+    padding-left: 10%;
+    margin-top: 200px;
+}
+h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: wheat;
+    -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+}
+h2{
+    margin: 20px 0 20px;
+    font-size: 100px;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 2.5px black;
+}
+p{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: white;
+    -webkit-text-stroke: 0.8px red;
+}
+.first_block2{
+    margin-left: 10%;
+}
+.first_block2 form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+.first_block2 form input:first-child{
+    width: 100%;
+    display: inline-block;
+    padding: 14px 160px 14px 15px;
+    border: 2px solid Red;
+    border-radius: 30px;
+}
+.first_block2 form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    top: 6px;
+    right: 6px;
+    transition: transform 0.6s;
+}
+.first_block2 form input:last-child:hover{
+    transform: scale(0.9);
+    color: black;
+}
+.img{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    transition: transform 0.6s;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.img:hover{
+    transform: scale(1.5);
+}
+.second_block{
+    background-color: rgb(184, 243, 184);
+    padding: 40px 20px 100px 100px;
+}
+h4{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke: 1px black;
+    margin-left: 300px;
+}
+.img2{
+    padding-top: 10px;
+    height: 320px;
+    width: 550px;
+}
+.third_block{
+    background-color: rgb(46, 45, 59);
+    padding: 50px;
+}
+p1{
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.5px white;
+}
+footer{
+    background-color: rgba(151, 144, 144, 0.712);
+    height: 10vh;
+    padding-top: 20px;
+    padding-left: 20px;
+}
